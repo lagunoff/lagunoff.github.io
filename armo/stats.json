@@ -1,0 +1,29 @@
+{
+  "assetsByChunkName": {
+    "vendor": [
+      "vendor-572e9a3c9cbb97d09648.js",
+      "vendor-fac0ac51d5d4ba392a8404be246542c2.css"
+    ],
+    "app": "app-e2f23f1547a144a34fcc.js",
+    "login": "login-04af55098cc8ad312ce8.js"
+  },
+  "builtAt": {
+    "timestamp": 1473775006221,
+    "iso": "2016-09-13T13:56:46.221Z"
+  },
+  "revision": "755d6c704547e456ea23684c825c797e7c12f713",
+  "version": "1.0.0-alpha.2",
+  "config": {
+    "useHtml5Navigation": 0,
+    "useDevtools": false,
+    "apiUrl": "http://brigadier-api.yggdrasil.bit.nest.bitmaster.ru/api/v1/",
+    "cacheImmutableData": false,
+    "useLogging": false,
+    "loggingUrl": null,
+    "defaultItemsLimit": 10,
+    "minPasswordLength": 1,
+    "maxPasswordLength": 9,
+    "generatedPasswordLength": 6,
+    "passwordAllowedChars": "1234567890"
+  }
+}
