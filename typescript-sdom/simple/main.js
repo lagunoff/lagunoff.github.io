@@ -465,7 +465,7 @@ function array(name, props) {
                             }
                         }
                         else {
-                            observable.step(childModels[i], { here: xs[i], parent: next });
+                            observable.next(childModels[i], { here: xs[i], parent: next });
                         }
                     };
                     for (var i = Math.max(xs.length, xsPrev.length) - 1; i >= 0; i--) {
@@ -483,27 +483,12 @@ function array(name, props) {
     };
 }
 exports.array = array;
-/**
- * Change both type parameters inside `SDOM<Model, Msg>`.
- *
- *    type Model1 = { btnTitle: string };
- *    type Msg1 = { tag: 'Clicked' };
- *    type Model2 = string;
- *    type Msg2 = 'Clicked';
- *    let latestMsg: any = void 0;
- *    const view01 = sdom.elem<Model2, Msg2>('button', (m: Model2) => m, { onclick: () => 'Clicked'});
- *    const view02 = sdom.dimap<Model1, Msg1, Model2, Msg2>(m => m.btnTitle, msg2 => ({ tag: 'Clicked' }))(view01);
- *    const el = view02.create(sdom.observable.of({ btnTitle: 'Click on me' }), msg => (latestMsg = msg));
- *    el.click();
- *    assert.instanceOf(el, HTMLButtonElement);
- *    assert.equal(el.textContent, 'Click on me');
- *    assert.deepEqual(latestMsg, { tag: 'Clicked' });
- */
 function dimap(coproj, proj) {
-    return function (sui) {
+    return function (s) {
+        var sdom = isSDOM(s) ? s : s(exports.h);
         return {
             create: function (o, sink) {
-                return sui.create(observable_1.observableMap(coproj, o), function (a) { return sink(proj(a)); });
+                return sdom.create(observable_1.observableMap(coproj, o), function (a) { return sink(proj(a)); });
             },
         };
     };
@@ -547,13 +532,13 @@ function discriminate(discriminator, alternatives) {
                 if (prevKey !== nextKey) {
                     // Key is changed, so we don't update but switch to the new node
                     observable.complete(childModel);
-                    observable.step(childModel, next);
+                    observable.next(childModel, next);
                     var nextEl = alternatives[nextKey].create(observable.create(childModel), sink);
                     el.parentNode.replaceChild(nextEl, el);
                     el = nextEl;
                 }
                 else {
-                    observable.step(childModel, next);
+                    observable.next(childModel, next);
                 }
             }
             function onComplete() {
@@ -586,7 +571,7 @@ var SDOMInstance = /** @class */ (function () {
                 case 'PENDING_REQUEST':
                     rAF(_this.updateIfNeeded);
                     _this.state = 'EXTRA_REQUEST';
-                    observable.step(_this.model, _this.currentModel);
+                    observable.next(_this.model, _this.currentModel);
                     return;
                 case 'EXTRA_REQUEST':
                     _this.state = 'NO_REQUEST';
@@ -656,14 +641,14 @@ function of(value) {
     return create({ value: value, subscriptions: [] });
 }
 exports.of = of;
-function step(v, next) {
+function next(v, next) {
     var change = { prev: v.value, next: next };
     v.subscriptions && v.subscriptions.forEach(function (s) { return s.onNext(change); });
     v.value = next;
 }
-exports.step = step;
+exports.next = next;
 function modify(v, proj) {
-    return step(v, proj(v.value));
+    return next(v, proj(v.value));
 }
 exports.modify = modify;
 function complete(v) {
