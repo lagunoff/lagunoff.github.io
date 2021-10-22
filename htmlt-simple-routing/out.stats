@@ -1,0 +1,129 @@
+code size summary per package:
+
+base:                    438978
+containers-0.6.0.1-BAqcfV1UBBeCIRjPbUYeSG:5059
+ghc-prim:                1226452
+ghcjs-base-0.2.0.0-1ZwpBn3jHwIJYg96SPVRhj:16207
+ghcjs-prim-0.1.1.0-EXzjGVHQlAS2XAXcu0iCbS:6987
+htmlt-0.1.0.0-inplace:   100748
+http-api-data-0.4.1-KpRiuLrqcJM7NICA1Rr8q9:23098
+integer-gmp:             6335
+main:                    327744
+network-uri-2.6.1.0-FyvCbrYwrI5KYWD9Rrqe5r:3423
+text-1.2.3.0-BEe1j41q4GDJqgEvxRtnar:313838
+
+
+code size per module:
+
+base
+    Control.Exception.Base:             598
+    Control.Monad.IO.Class:             1472
+    Data.Char:                          11805
+    Data.Either:                        719
+    Data.Maybe:                         10854
+    Data.OldList:                       167
+    Data.Tuple:                         74025
+    Data.Typeable.Internal:             10700
+    Foreign.C.Error:                    1578
+    Foreign.Marshal.Alloc:              3219
+    Foreign.Storable:                   3360
+    GHC.Arr:                            8183
+    GHC.Base:                           584
+    GHC.Char:                           4197
+    GHC.Conc.Sync:                      10701
+    GHC.Enum:                           494
+    GHC.Err:                            10650
+    GHC.Exception:                      5456
+    GHC.Exception.Type:                 6654
+    GHC.Fingerprint:                    1043
+    GHC.Fingerprint.Type:               11962
+    GHC.Foreign:                        1298
+    GHC.ForeignPtr:                     833
+    GHC.Generics:                       3510
+    GHC.IO:                             1241
+    GHC.IO.Buffer:                      850
+    GHC.IO.BufferedIO:                  1248
+    GHC.IO.Device:                      1044
+    GHC.IO.Encoding:                    914
+    GHC.IO.Encoding.Failure:            983
+    GHC.IO.Encoding.Types:              62032
+    GHC.IO.Encoding.UTF8:               20784
+    GHC.IO.Exception:                   34923
+    GHC.IO.FD:                          370
+    GHC.IO.Handle:                      7188
+    GHC.IO.Handle.FD:                   27173
+    GHC.IO.Handle.Internals:            3651
+    GHC.IO.Handle.Types:                1
+    GHC.IORef:                          1012
+    GHC.Int:                            7058
+    GHC.List:                           174
+    GHC.MVar:                           244
+    GHC.Maybe:                          2522
+    GHC.Num:                            174
+    GHC.Ptr:                            9197
+    GHC.Real:                           1014
+    GHC.STRef:                          25741
+    GHC.Show:                           4162
+    GHC.Stack.CCS:                      1268
+    GHC.Stack.Types:                    14573
+    GHC.TopHandler:                     459
+    GHC.Word:                           5220
+    Numeric:                            15738
+    System.Posix.Internals:             3958
+
+containers-0.6.0.1-BAqcfV1UBBeCIRjPbUYeSG
+    Data.Map.Internal:                  5059
+
+ghc-prim
+    GHC.CString:                        9189
+    GHC.Classes:                        139
+    GHC.IntWord64:                      2617
+    GHC.Tuple:                          3122
+    GHC.Types:                          1211385
+
+ghcjs-base-0.2.0.0-1ZwpBn3jHwIJYg96SPVRhj
+    Data.JSString:                      1506
+    Data.JSString.Internal.Fusion.Common:1859
+    Data.JSString.Internal.Fusion.Types:268
+    Data.JSString.Internal.Type:        264
+    GHCJS.Marshal:                      12310
+
+ghcjs-prim-0.1.1.0-EXzjGVHQlAS2XAXcu0iCbS
+    GHCJS.Prim:                         3632
+    GHCJS.Prim.Internal:                3355
+
+htmlt-0.1.0.0-inplace
+    HtmlT.Base:                         4111
+    HtmlT.DOM:                          1435
+    HtmlT.Decode:                       15150
+    HtmlT.Event:                        5436
+    HtmlT.Internal:                     3924
+    HtmlT.Main:                         2365
+    HtmlT.Property:                     1037
+    HtmlT.Types:                        67290
+
+http-api-data-0.4.1-KpRiuLrqcJM7NICA1Rr8q9
+    Web.Internal.HttpApiData:           23098
+
+integer-gmp
+    GHC.Integer.Type:                   6335
+
+main
+    Assets:                             17673
+    Main:                               147367
+    Pages:                              116690
+    Router:                             7495
+    Utils:                              38519
+
+network-uri-2.6.1.0-FyvCbrYwrI5KYWD9Rrqe5r
+    Network.URI:                        3423
+
+text-1.2.3.0-BEe1j41q4GDJqgEvxRtnar
+    Data.Text:                          1
+    Data.Text.Internal:                 4669
+    Data.Text.Read:                     309168
+
+
+
+packed metadata: 286139
+
