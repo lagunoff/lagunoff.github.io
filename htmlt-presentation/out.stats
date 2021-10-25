@@ -1,0 +1,118 @@
+code size summary per package:
+
+base:                    559486
+containers-0.6.0.1-BAqcfV1UBBeCIRjPbUYeSG:83494
+ghc-prim:                94112
+ghcjs-base-0.2.0.0-1ZwpBn3jHwIJYg96SPVRhj:11262
+ghcjs-prim-0.1.1.0-EXzjGVHQlAS2XAXcu0iCbS:9028
+htmlt-0.1.0.0-F9pzRIn6HMUBq3qU7f4EbW:69527
+integer-gmp:             6323
+main:                    409950
+text-1.2.3.0-BEe1j41q4GDJqgEvxRtnar:4109
+
+
+code size per module:
+
+base
+    Control.Exception.Base:             598
+    Control.Monad.IO.Class:             1033
+    Data.OldList:                       74003
+    Data.Typeable.Internal:             10700
+    Foreign.C.Error:                    1574
+    Foreign.Marshal.Alloc:              3219
+    Foreign.Storable:                   3353
+    GHC.Arr:                            7657
+    GHC.Base:                           582
+    GHC.Char:                           10027
+    GHC.Conc.Sync:                      10883
+    GHC.Enum:                           494
+    GHC.Err:                            10649
+    GHC.Exception:                      5212
+    GHC.Exception.Type:                 6654
+    GHC.Fingerprint:                    1043
+    GHC.Fingerprint.Type:               58515
+    GHC.Float:                          11962
+    GHC.Foreign:                        1296
+    GHC.ForeignPtr:                     3510
+    GHC.IO:                             1241
+    GHC.IO.Buffer:                      850
+    GHC.IO.BufferedIO:                  1248
+    GHC.IO.Device:                      1044
+    GHC.IO.Encoding:                    906
+    GHC.IO.Encoding.Failure:            983
+    GHC.IO.Encoding.Types:              62030
+    GHC.IO.Encoding.UTF8:               28351
+    GHC.IO.Exception:                   34901
+    GHC.IO.FD:                          368
+    GHC.IO.Handle:                      7184
+    GHC.IO.Handle.FD:                   27161
+    GHC.IO.Handle.Internals:            3651
+    GHC.IO.Handle.Types:                159
+    GHC.IORef:                          1012
+    GHC.Int:                            7305
+    GHC.List:                           174
+    GHC.MVar:                           244
+    GHC.Maybe:                          2868
+    GHC.Num:                            174
+    GHC.Ptr:                            12033
+    GHC.Read:                           2309
+    GHC.Real:                           361
+    GHC.STRef:                          8135
+    GHC.Show:                           4160
+    GHC.Stack.CCS:                      1268
+    GHC.Stack.Types:                    14569
+    GHC.TopHandler:                     1886
+    GHC.Unicode:                        459
+    GHC.Word:                           15724
+    System.Posix.Internals:             23070
+    Text.ParserCombinators.ReadP:       168
+    Text.ParserCombinators.ReadPrec:    1262
+    Text.Read:                          65292
+    Text.Read.Lex:                      3972
+
+containers-0.6.0.1-BAqcfV1UBBeCIRjPbUYeSG
+    Data.Map.Internal:                  80733
+    Data.Set.Internal:                  2761
+
+ghc-prim
+    GHC.CString:                        19829
+    GHC.Classes:                        139
+    GHC.IntWord64:                      2617
+    GHC.Tuple:                          3416
+    GHC.Types:                          68111
+
+ghcjs-base-0.2.0.0-1ZwpBn3jHwIJYg96SPVRhj
+    Data.JSString:                      1506
+    Data.JSString.Internal.Fusion.Common:268
+    Data.JSString.Internal.Type:        9488
+
+ghcjs-prim-0.1.1.0-EXzjGVHQlAS2XAXcu0iCbS
+    GHCJS.Prim:                         3632
+    GHCJS.Prim.Internal:                5396
+
+htmlt-0.1.0.0-F9pzRIn6HMUBq3qU7f4EbW
+    HtmlT.Base:                         31624
+    HtmlT.DOM:                          25317
+    HtmlT.Event:                        5568
+    HtmlT.Internal:                     4583
+    HtmlT.Main:                         1382
+    HtmlT.Property:                     928
+    HtmlT.Types:                        125
+
+integer-gmp
+    GHC.Integer.Type:                   6323
+
+main
+    Assets:                             15492
+    Life:                               51515
+    Main:                               274732
+    Slides:                             16877
+    Utils:                              51334
+
+text-1.2.3.0-BEe1j41q4GDJqgEvxRtnar
+    Data.Text:                          4109
+
+
+
+packed metadata: 210471
+
