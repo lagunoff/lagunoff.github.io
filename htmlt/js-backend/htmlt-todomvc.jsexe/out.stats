@@ -1,0 +1,586 @@
+number of modules: 537
+packed metadata:   1053659
+
+code size summary per package (in bytes):
+
+array-0.5.6.0-inplace:   0
+base:                    872004
+binary-0.8.9.1-inplace:  0
+bytestring-0.11.5.1-inplace:0
+containers-0.6.7-inplace:168251
+deepseq-1.5.0.0-inplace: 0
+exceptions-0.10.7-inplace:0
+ghc-bignum:              176393
+ghc-boot-th-9.9-inplace: 0
+ghc-internal-0.1.0.0-inplace:0
+ghc-prim:                20539
+htmlt-0.1.0.0-inplace:   214421
+main:                    333273
+mtl-2.3.1-inplace:       0
+pretty-1.1.3.6-inplace:  0
+stm-2.5.1.0-inplace:     0
+template-haskell:        0
+text-2.0.2-inplace:      0
+transformers-0.6.1.0-inplace:12517
+
+
+code size per module (in bytes):
+
+    $array-0.5.6.0-inplace$Data.Array:  0
+    $array-0.5.6.0-inplace$Data.Array.Base:0
+    $array-0.5.6.0-inplace$Data.Array.IArray:0
+    $array-0.5.6.0-inplace$Data.Array.IO:0
+    $array-0.5.6.0-inplace$Data.Array.IO.Internals:0
+    $array-0.5.6.0-inplace$Data.Array.IO.Safe:0
+    $array-0.5.6.0-inplace$Data.Array.MArray:0
+    $array-0.5.6.0-inplace$Data.Array.MArray.Safe:0
+    $array-0.5.6.0-inplace$Data.Array.ST:0
+    $array-0.5.6.0-inplace$Data.Array.ST.Safe:0
+    $array-0.5.6.0-inplace$Data.Array.Storable:0
+    $array-0.5.6.0-inplace$Data.Array.Storable.Internals:0
+    $array-0.5.6.0-inplace$Data.Array.Storable.Safe:0
+    $array-0.5.6.0-inplace$Data.Array.Unboxed:0
+    $array-0.5.6.0-inplace$Data.Array.Unsafe:0
+
+    $base$Control.Applicative:          0
+    $base$Control.Arrow:                0
+    $base$Control.Category:             0
+    $base$Control.Concurrent:           0
+    $base$Control.Concurrent.Chan:      0
+    $base$Control.Concurrent.MVar:      0
+    $base$Control.Concurrent.QSem:      0
+    $base$Control.Concurrent.QSemN:     0
+    $base$Control.Exception:            0
+    $base$Control.Exception.Base:       7629
+    $base$Control.Monad:                0
+    $base$Control.Monad.Fail:           0
+    $base$Control.Monad.Fix:            0
+    $base$Control.Monad.IO.Class:       862
+    $base$Control.Monad.Instances:      0
+    $base$Control.Monad.ST:             0
+    $base$Control.Monad.ST.Imp:         0
+    $base$Control.Monad.ST.Lazy:        0
+    $base$Control.Monad.ST.Lazy.Imp:    0
+    $base$Control.Monad.ST.Lazy.Safe:   0
+    $base$Control.Monad.ST.Lazy.Unsafe: 0
+    $base$Control.Monad.ST.Safe:        0
+    $base$Control.Monad.ST.Strict:      0
+    $base$Control.Monad.ST.Unsafe:      0
+    $base$Control.Monad.Zip:            0
+    $base$Data.Array.Byte:              0
+    $base$Data.Bifoldable:              0
+    $base$Data.Bifoldable1:             0
+    $base$Data.Bifunctor:               0
+    $base$Data.Bitraversable:           0
+    $base$Data.Bits:                    0
+    $base$Data.Bool:                    0
+    $base$Data.Char:                    0
+    $base$Data.Coerce:                  0
+    $base$Data.Complex:                 0
+    $base$Data.Data:                    0
+    $base$Data.Dynamic:                 0
+    $base$Data.Either:                  0
+    $base$Data.Enum:                    0
+    $base$Data.Eq:                      0
+    $base$Data.Fixed:                   0
+    $base$Data.Foldable:                0
+    $base$Data.Foldable1:               0
+    $base$Data.Function:                0
+    $base$Data.Functor:                 0
+    $base$Data.Functor.Classes:         0
+    $base$Data.Functor.Compose:         0
+    $base$Data.Functor.Const:           0
+    $base$Data.Functor.Contravariant:   0
+    $base$Data.Functor.Identity:        0
+    $base$Data.Functor.Product:         0
+    $base$Data.Functor.Sum:             0
+    $base$Data.Functor.Utils:           0
+    $base$Data.IORef:                   0
+    $base$Data.Int:                     0
+    $base$Data.Ix:                      0
+    $base$Data.Kind:                    0
+    $base$Data.List:                    0
+    $base$Data.List.NonEmpty:           0
+    $base$Data.Maybe:                   1171
+    $base$Data.Monoid:                  0
+    $base$Data.OldList:                 1939
+    $base$Data.Ord:                     0
+    $base$Data.Proxy:                   0
+    $base$Data.Ratio:                   0
+    $base$Data.STRef:                   0
+    $base$Data.STRef.Lazy:              0
+    $base$Data.STRef.Strict:            0
+    $base$Data.Semigroup:               0
+    $base$Data.Semigroup.Internal:      0
+    $base$Data.String:                  0
+    $base$Data.Traversable:             0
+    $base$Data.Tuple:                   0
+    $base$Data.Type.Bool:               0
+    $base$Data.Type.Coercion:           0
+    $base$Data.Type.Equality:           0
+    $base$Data.Type.Ord:                0
+    $base$Data.Typeable:                0
+    $base$Data.Typeable.Internal:       183123
+    $base$Data.Unique:                  0
+    $base$Data.Version:                 0
+    $base$Data.Void:                    0
+    $base$Data.Word:                    0
+    $base$Debug.Trace:                  0
+    $base$Foreign:                      0
+    $base$Foreign.C:                    0
+    $base$Foreign.C.ConstPtr:           0
+    $base$Foreign.C.Error:              12448
+    $base$Foreign.C.String:             0
+    $base$Foreign.C.Types:              0
+    $base$Foreign.Concurrent:           0
+    $base$Foreign.ForeignPtr:           0
+    $base$Foreign.ForeignPtr.Imp:       0
+    $base$Foreign.ForeignPtr.Safe:      0
+    $base$Foreign.ForeignPtr.Unsafe:    0
+    $base$Foreign.Marshal:              0
+    $base$Foreign.Marshal.Alloc:        4077
+    $base$Foreign.Marshal.Array:        0
+    $base$Foreign.Marshal.Error:        0
+    $base$Foreign.Marshal.Pool:         0
+    $base$Foreign.Marshal.Safe:         0
+    $base$Foreign.Marshal.Unsafe:       0
+    $base$Foreign.Marshal.Utils:        0
+    $base$Foreign.Ptr:                  0
+    $base$Foreign.Safe:                 0
+    $base$Foreign.StablePtr:            0
+    $base$Foreign.Storable:             2148
+    $base$GHC.Arr:                      2745
+    $base$GHC.ArrayArray:               0
+    $base$GHC.Base:                     14250
+    $base$GHC.Bits:                     0
+    $base$GHC.ByteOrder:                0
+    $base$GHC.Char:                     0
+    $base$GHC.Clock:                    0
+    $base$GHC.Conc:                     0
+    $base$GHC.Conc.IO:                  0
+    $base$GHC.Conc.Signal:              0
+    $base$GHC.Conc.Sync:                7526
+    $base$GHC.ConsoleHandler:           0
+    $base$GHC.Constants:                0
+    $base$GHC.Desugar:                  0
+    $base$GHC.Encoding.UTF8:            0
+    $base$GHC.Enum:                     10316
+    $base$GHC.Environment:              0
+    $base$GHC.Err:                      749
+    $base$GHC.Event:                    0
+    $base$GHC.Event.Arr:                0
+    $base$GHC.Event.Array:              0
+    $base$GHC.Event.Control:            0
+    $base$GHC.Event.EPoll:              0
+    $base$GHC.Event.IntTable:           0
+    $base$GHC.Event.IntVar:             0
+    $base$GHC.Event.Internal:           0
+    $base$GHC.Event.Internal.Types:     0
+    $base$GHC.Event.KQueue:             0
+    $base$GHC.Event.Manager:            0
+    $base$GHC.Event.PSQ:                0
+    $base$GHC.Event.Poll:               0
+    $base$GHC.Event.Thread:             0
+    $base$GHC.Event.TimeOut:            0
+    $base$GHC.Event.TimerManager:       0
+    $base$GHC.Event.Unique:             0
+    $base$GHC.Exception:                19149
+    $base$GHC.Exception.Type:           9419
+    $base$GHC.ExecutionStack:           0
+    $base$GHC.ExecutionStack.Internal:  0
+    $base$GHC.Exts:                     0
+    $base$GHC.Fingerprint:              17488
+    $base$GHC.Fingerprint.Type:         3199
+    $base$GHC.Float:                    0
+    $base$GHC.Float.ConversionUtils:    0
+    $base$GHC.Float.RealFracMethods:    0
+    $base$GHC.Foreign:                  0
+    $base$GHC.Foreign.Internal:         45368
+    $base$GHC.ForeignPtr:               1798
+    $base$GHC.GHCi:                     0
+    $base$GHC.GHCi.Helpers:             0
+    $base$GHC.Generics:                 962
+    $base$GHC.IO:                       5888
+    $base$GHC.IO.Buffer:                3292
+    $base$GHC.IO.BufferedIO:            2099
+    $base$GHC.IO.Device:                4098
+    $base$GHC.IO.Encoding:              2025
+    $base$GHC.IO.Encoding.CodePage:     0
+    $base$GHC.IO.Encoding.Failure:      3430
+    $base$GHC.IO.Encoding.Iconv:        0
+    $base$GHC.IO.Encoding.Latin1:       0
+    $base$GHC.IO.Encoding.Types:        1549
+    $base$GHC.IO.Encoding.UTF16:        0
+    $base$GHC.IO.Encoding.UTF32:        0
+    $base$GHC.IO.Encoding.UTF8:         87268
+    $base$GHC.IO.Exception:             38867
+    $base$GHC.IO.FD:                    70622
+    $base$GHC.IO.Handle:                1392
+    $base$GHC.IO.Handle.FD:             10693
+    $base$GHC.IO.Handle.Internals:      71366
+    $base$GHC.IO.Handle.Lock:           0
+    $base$GHC.IO.Handle.Lock.Common:    0
+    $base$GHC.IO.Handle.Lock.Flock:     0
+    $base$GHC.IO.Handle.Lock.LinuxOFD:  0
+    $base$GHC.IO.Handle.Lock.NoOp:      0
+    $base$GHC.IO.Handle.Lock.Windows:   0
+    $base$GHC.IO.Handle.Text:           0
+    $base$GHC.IO.Handle.Types:          7911
+    $base$GHC.IO.IOMode:                0
+    $base$GHC.IO.StdHandles:            161
+    $base$GHC.IO.SubSystem:             0
+    $base$GHC.IO.Unsafe:                440
+    $base$GHC.IOArray:                  0
+    $base$GHC.IOPort:                   0
+    $base$GHC.IORef:                    0
+    $base$GHC.InfoProv:                 0
+    $base$GHC.Int:                      759
+    $base$GHC.Integer:                  0
+    $base$GHC.Integer.Logarithms:       0
+    $base$GHC.IsList:                   0
+    $base$GHC.Ix:                       3505
+    $base$GHC.JS.Foreign.Callback:      0
+    $base$GHC.JS.Prim:                  14382
+    $base$GHC.JS.Prim.Internal:         6246
+    $base$GHC.JS.Prim.Internal.Build:   0
+    $base$GHC.List:                     12683
+    $base$GHC.MVar:                     0
+    $base$GHC.Maybe:                    513
+    $base$GHC.Natural:                  0
+    $base$GHC.Num:                      921
+    $base$GHC.OldList:                  0
+    $base$GHC.OverloadedLabels:         0
+    $base$GHC.Pack:                     0
+    $base$GHC.Profiling:                0
+    $base$GHC.Ptr:                      224
+    $base$GHC.RTS.Flags:                0
+    $base$GHC.Read:                     0
+    $base$GHC.Real:                     8453
+    $base$GHC.Records:                  0
+    $base$GHC.ResponseFile:             0
+    $base$GHC.ST:                       0
+    $base$GHC.STRef:                    202
+    $base$GHC.Show:                     44478
+    $base$GHC.Stable:                   0
+    $base$GHC.StableName:               0
+    $base$GHC.Stack:                    0
+    $base$GHC.Stack.CCS:                8010
+    $base$GHC.Stack.CloneStack:         0
+    $base$GHC.Stack.Types:              1847
+    $base$GHC.StaticPtr:                0
+    $base$GHC.StaticPtr.Internal:       0
+    $base$GHC.Stats:                    0
+    $base$GHC.Storable:                 0
+    $base$GHC.TopHandler:               35125
+    $base$GHC.TypeError:                0
+    $base$GHC.TypeLits:                 0
+    $base$GHC.TypeLits.Internal:        0
+    $base$GHC.TypeNats:                 0
+    $base$GHC.TypeNats.Internal:        0
+    $base$GHC.Unicode:                  0
+    $base$GHC.Unicode.Internal.Bits:    0
+    $base$GHC.Unicode.Internal.Char.DerivedCoreProperties:0
+    $base$GHC.Unicode.Internal.Char.UnicodeData.GeneralCategory:0
+    $base$GHC.Unicode.Internal.Char.UnicodeData.SimpleLowerCaseMapping:0
+    $base$GHC.Unicode.Internal.Char.UnicodeData.SimpleTitleCaseMapping:0
+    $base$GHC.Unicode.Internal.Char.UnicodeData.SimpleUpperCaseMapping:0
+    $base$GHC.Unicode.Internal.Version: 0
+    $base$GHC.Weak:                     0
+    $base$GHC.Weak.Finalize:            579
+    $base$GHC.Word:                     36903
+    $base$Numeric:                      8785
+    $base$Numeric.Natural:              0
+    $base$Prelude:                      0
+    $base$System.CPUTime:               0
+    $base$System.CPUTime.Javascript:    0
+    $base$System.CPUTime.Posix.ClockGetTime:0
+    $base$System.CPUTime.Posix.RUsage:  0
+    $base$System.CPUTime.Posix.Times:   0
+    $base$System.CPUTime.Unsupported:   0
+    $base$System.CPUTime.Utils:         0
+    $base$System.Console.GetOpt:        0
+    $base$System.Environment:           0
+    $base$System.Environment.Blank:     0
+    $base$System.Environment.ExecutablePath:0
+    $base$System.Exit:                  0
+    $base$System.IO:                    1396
+    $base$System.IO.Error:              0
+    $base$System.IO.Unsafe:             0
+    $base$System.Info:                  0
+    $base$System.Mem:                   0
+    $base$System.Mem.StableName:        0
+    $base$System.Mem.Weak:              0
+    $base$System.Posix.Internals:       29526
+    $base$System.Posix.Types:           0
+    $base$System.Timeout:               0
+    $base$Text.ParserCombinators.ReadP: 0
+    $base$Text.ParserCombinators.ReadPrec:0
+    $base$Text.Printf:                  0
+    $base$Text.Read:                    0
+    $base$Text.Read.Lex:                0
+    $base$Text.Show:                    0
+    $base$Text.Show.Functions:          0
+    $base$Type.Reflection:              0
+    $base$Type.Reflection.Unsafe:       0
+    $base$Unsafe.Coerce:                0
+
+    $binary-0.8.9.1-inplace$Data.Binary:0
+    $binary-0.8.9.1-inplace$Data.Binary.Builder:0
+    $binary-0.8.9.1-inplace$Data.Binary.Class:0
+    $binary-0.8.9.1-inplace$Data.Binary.FloatCast:0
+    $binary-0.8.9.1-inplace$Data.Binary.Generic:0
+    $binary-0.8.9.1-inplace$Data.Binary.Get:0
+    $binary-0.8.9.1-inplace$Data.Binary.Get.Internal:0
+    $binary-0.8.9.1-inplace$Data.Binary.Internal:0
+    $binary-0.8.9.1-inplace$Data.Binary.Put:0
+
+    $bytestring-0.11.5.1-inplace$Data.ByteString:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.ASCII:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Extra:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Internal:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Prim:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Prim.ASCII:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Prim.Binary:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Prim.Internal:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Prim.Internal.Base16:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.Prim.Internal.Floating:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.RealFloat:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.RealFloat.D2S:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.RealFloat.F2S:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.RealFloat.Internal:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Builder.RealFloat.TableGenerator:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Char8:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Internal:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Internal.Type:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Lazy:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Lazy.Char8:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Lazy.Internal:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Lazy.Internal.Deque:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Short:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Short.Internal:0
+    $bytestring-0.11.5.1-inplace$Data.ByteString.Unsafe:0
+
+    $containers-0.6.7-inplace$Data.Containers.ListUtils:0
+    $containers-0.6.7-inplace$Data.Graph:0
+    $containers-0.6.7-inplace$Data.IntMap:0
+    $containers-0.6.7-inplace$Data.IntMap.Internal:0
+    $containers-0.6.7-inplace$Data.IntMap.Internal.Debug:0
+    $containers-0.6.7-inplace$Data.IntMap.Internal.DeprecatedDebug:0
+    $containers-0.6.7-inplace$Data.IntMap.Lazy:0
+    $containers-0.6.7-inplace$Data.IntMap.Merge.Lazy:0
+    $containers-0.6.7-inplace$Data.IntMap.Merge.Strict:0
+    $containers-0.6.7-inplace$Data.IntMap.Strict:0
+    $containers-0.6.7-inplace$Data.IntMap.Strict.Internal:0
+    $containers-0.6.7-inplace$Data.IntSet:0
+    $containers-0.6.7-inplace$Data.IntSet.Internal:0
+    $containers-0.6.7-inplace$Data.Map: 0
+    $containers-0.6.7-inplace$Data.Map.Internal:106851
+    $containers-0.6.7-inplace$Data.Map.Internal.Debug:0
+    $containers-0.6.7-inplace$Data.Map.Internal.DeprecatedShowTree:0
+    $containers-0.6.7-inplace$Data.Map.Lazy:0
+    $containers-0.6.7-inplace$Data.Map.Merge.Lazy:0
+    $containers-0.6.7-inplace$Data.Map.Merge.Strict:0
+    $containers-0.6.7-inplace$Data.Map.Strict:0
+    $containers-0.6.7-inplace$Data.Map.Strict.Internal:0
+    $containers-0.6.7-inplace$Data.Sequence:0
+    $containers-0.6.7-inplace$Data.Sequence.Internal:0
+    $containers-0.6.7-inplace$Data.Sequence.Internal.Sorting:0
+    $containers-0.6.7-inplace$Data.Set: 0
+    $containers-0.6.7-inplace$Data.Set.Internal:61400
+    $containers-0.6.7-inplace$Data.Tree:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.BitQueue:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.BitUtil:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.Coercions:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.Prelude:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.PtrEquality:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.State:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.StrictMaybe:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.StrictPair:0
+    $containers-0.6.7-inplace$Utils.Containers.Internal.TypeError:0
+
+    $deepseq-1.5.0.0-inplace$Control.DeepSeq:0
+
+    $exceptions-0.10.7-inplace$Control.Monad.Catch:0
+    $exceptions-0.10.7-inplace$Control.Monad.Catch.Pure:0
+
+    $ghc-bignum$GHC.Num.Backend:        0
+    $ghc-bignum$GHC.Num.Backend.Native: 35859
+    $ghc-bignum$GHC.Num.Backend.Selected:0
+    $ghc-bignum$GHC.Num.BigNat:         79178
+    $ghc-bignum$GHC.Num.Integer:        52298
+    $ghc-bignum$GHC.Num.Natural:        0
+    $ghc-bignum$GHC.Num.Primitives:     0
+    $ghc-bignum$GHC.Num.WordArray:      9058
+
+    $ghc-boot-th-9.9-inplace$GHC.ForeignSrcLang.Type:0
+    $ghc-boot-th-9.9-inplace$GHC.LanguageExtensions.Type:0
+    $ghc-boot-th-9.9-inplace$GHC.Lexeme:0
+
+    $ghc-internal-0.1.0.0-inplace$Dummy:0
+
+    $ghc-prim$GHC.CString:              10782
+    $ghc-prim$GHC.Classes:              4362
+    $ghc-prim$GHC.Debug:                0
+    $ghc-prim$GHC.Magic:                0
+    $ghc-prim$GHC.Magic.Dict:           0
+    $ghc-prim$GHC.Prim.Exception:       296
+    $ghc-prim$GHC.Prim.Ext:             0
+    $ghc-prim$GHC.Prim.Panic:           0
+    $ghc-prim$GHC.Prim.PtrEq:           0
+    $ghc-prim$GHC.PrimopWrappers:       0
+    $ghc-prim$GHC.Tuple:                0
+    $ghc-prim$GHC.Tuple.Prim:           627
+    $ghc-prim$GHC.Types:                4472
+
+    $htmlt-0.1.0.0-inplace$HtmlT:       0
+    $htmlt-0.1.0.0-inplace$HtmlT.Base:  62053
+    $htmlt-0.1.0.0-inplace$HtmlT.DOM:   15520
+    $htmlt-0.1.0.0-inplace$HtmlT.Element:0
+    $htmlt-0.1.0.0-inplace$HtmlT.Event: 99251
+    $htmlt-0.1.0.0-inplace$HtmlT.Internal:15270
+    $htmlt-0.1.0.0-inplace$HtmlT.Main:  4851
+    $htmlt-0.1.0.0-inplace$HtmlT.Property:0
+    $htmlt-0.1.0.0-inplace$HtmlT.Types: 9255
+    $htmlt-0.1.0.0-inplace$JavaScript.Compat.Marshal:7484
+    $htmlt-0.1.0.0-inplace$JavaScript.Compat.String:737
+    $htmlt-0.1.0.0-inplace$Paths_htmlt: 0
+
+    $main$Main:                         5596
+    $main$TodoItem:                     109720
+    $main$TodoList:                     196754
+    $main$Utils:                        21203
+
+    $mtl-2.3.1-inplace$Control.Monad.Accum:0
+    $mtl-2.3.1-inplace$Control.Monad.Cont:0
+    $mtl-2.3.1-inplace$Control.Monad.Cont.Class:0
+    $mtl-2.3.1-inplace$Control.Monad.Error.Class:0
+    $mtl-2.3.1-inplace$Control.Monad.Except:0
+    $mtl-2.3.1-inplace$Control.Monad.Identity:0
+    $mtl-2.3.1-inplace$Control.Monad.RWS:0
+    $mtl-2.3.1-inplace$Control.Monad.RWS.CPS:0
+    $mtl-2.3.1-inplace$Control.Monad.RWS.Class:0
+    $mtl-2.3.1-inplace$Control.Monad.RWS.Lazy:0
+    $mtl-2.3.1-inplace$Control.Monad.RWS.Strict:0
+    $mtl-2.3.1-inplace$Control.Monad.Reader:0
+    $mtl-2.3.1-inplace$Control.Monad.Reader.Class:0
+    $mtl-2.3.1-inplace$Control.Monad.Select:0
+    $mtl-2.3.1-inplace$Control.Monad.State:0
+    $mtl-2.3.1-inplace$Control.Monad.State.Class:0
+    $mtl-2.3.1-inplace$Control.Monad.State.Lazy:0
+    $mtl-2.3.1-inplace$Control.Monad.State.Strict:0
+    $mtl-2.3.1-inplace$Control.Monad.Trans:0
+    $mtl-2.3.1-inplace$Control.Monad.Writer:0
+    $mtl-2.3.1-inplace$Control.Monad.Writer.CPS:0
+    $mtl-2.3.1-inplace$Control.Monad.Writer.Class:0
+    $mtl-2.3.1-inplace$Control.Monad.Writer.Lazy:0
+    $mtl-2.3.1-inplace$Control.Monad.Writer.Strict:0
+
+    $pretty-1.1.3.6-inplace$Text.PrettyPrint:0
+    $pretty-1.1.3.6-inplace$Text.PrettyPrint.Annotated:0
+    $pretty-1.1.3.6-inplace$Text.PrettyPrint.Annotated.HughesPJ:0
+    $pretty-1.1.3.6-inplace$Text.PrettyPrint.Annotated.HughesPJClass:0
+    $pretty-1.1.3.6-inplace$Text.PrettyPrint.HughesPJ:0
+    $pretty-1.1.3.6-inplace$Text.PrettyPrint.HughesPJClass:0
+
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM:0
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM.TArray:0
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM.TBQueue:0
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM.TChan:0
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM.TMVar:0
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM.TQueue:0
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM.TSem:0
+    $stm-2.5.1.0-inplace$Control.Concurrent.STM.TVar:0
+    $stm-2.5.1.0-inplace$Control.Monad.STM:0
+    $stm-2.5.1.0-inplace$Control.Sequential.STM:0
+
+    $template-haskell$Language.Haskell.TH:0
+    $template-haskell$Language.Haskell.TH.CodeDo:0
+    $template-haskell$Language.Haskell.TH.LanguageExtensions:0
+    $template-haskell$Language.Haskell.TH.Lib:0
+    $template-haskell$Language.Haskell.TH.Lib.Internal:0
+    $template-haskell$Language.Haskell.TH.Lib.Map:0
+    $template-haskell$Language.Haskell.TH.Ppr:0
+    $template-haskell$Language.Haskell.TH.PprLib:0
+    $template-haskell$Language.Haskell.TH.Quote:0
+    $template-haskell$Language.Haskell.TH.Syntax:0
+    $template-haskell$System.FilePath:  0
+    $template-haskell$System.FilePath.Posix:0
+    $template-haskell$System.FilePath.Windows:0
+
+    $text-2.0.2-inplace$Data.Text:      0
+    $text-2.0.2-inplace$Data.Text.Array:0
+    $text-2.0.2-inplace$Data.Text.Encoding:0
+    $text-2.0.2-inplace$Data.Text.Encoding.Error:0
+    $text-2.0.2-inplace$Data.Text.Foreign:0
+    $text-2.0.2-inplace$Data.Text.IO:   0
+    $text-2.0.2-inplace$Data.Text.IO.Utf8:0
+    $text-2.0.2-inplace$Data.Text.Internal:0
+    $text-2.0.2-inplace$Data.Text.Internal.Builder:0
+    $text-2.0.2-inplace$Data.Text.Internal.Builder.Functions:0
+    $text-2.0.2-inplace$Data.Text.Internal.Builder.Int.Digits:0
+    $text-2.0.2-inplace$Data.Text.Internal.Builder.RealFloat.Functions:0
+    $text-2.0.2-inplace$Data.Text.Internal.ByteStringCompat:0
+    $text-2.0.2-inplace$Data.Text.Internal.Encoding:0
+    $text-2.0.2-inplace$Data.Text.Internal.Encoding.Fusion:0
+    $text-2.0.2-inplace$Data.Text.Internal.Encoding.Fusion.Common:0
+    $text-2.0.2-inplace$Data.Text.Internal.Encoding.Utf16:0
+    $text-2.0.2-inplace$Data.Text.Internal.Encoding.Utf32:0
+    $text-2.0.2-inplace$Data.Text.Internal.Encoding.Utf8:0
+    $text-2.0.2-inplace$Data.Text.Internal.Fusion:0
+    $text-2.0.2-inplace$Data.Text.Internal.Fusion.CaseMapping:0
+    $text-2.0.2-inplace$Data.Text.Internal.Fusion.Common:0
+    $text-2.0.2-inplace$Data.Text.Internal.Fusion.Size:0
+    $text-2.0.2-inplace$Data.Text.Internal.Fusion.Types:0
+    $text-2.0.2-inplace$Data.Text.Internal.IO:0
+    $text-2.0.2-inplace$Data.Text.Internal.Lazy:0
+    $text-2.0.2-inplace$Data.Text.Internal.Lazy.Encoding.Fusion:0
+    $text-2.0.2-inplace$Data.Text.Internal.Lazy.Fusion:0
+    $text-2.0.2-inplace$Data.Text.Internal.Lazy.Search:0
+    $text-2.0.2-inplace$Data.Text.Internal.PrimCompat:0
+    $text-2.0.2-inplace$Data.Text.Internal.Private:0
+    $text-2.0.2-inplace$Data.Text.Internal.Read:0
+    $text-2.0.2-inplace$Data.Text.Internal.Search:0
+    $text-2.0.2-inplace$Data.Text.Internal.StrictBuilder:0
+    $text-2.0.2-inplace$Data.Text.Internal.Unsafe:0
+    $text-2.0.2-inplace$Data.Text.Internal.Unsafe.Char:0
+    $text-2.0.2-inplace$Data.Text.Internal.Validate:0
+    $text-2.0.2-inplace$Data.Text.Lazy: 0
+    $text-2.0.2-inplace$Data.Text.Lazy.Builder:0
+    $text-2.0.2-inplace$Data.Text.Lazy.Builder.Int:0
+    $text-2.0.2-inplace$Data.Text.Lazy.Builder.RealFloat:0
+    $text-2.0.2-inplace$Data.Text.Lazy.Encoding:0
+    $text-2.0.2-inplace$Data.Text.Lazy.IO:0
+    $text-2.0.2-inplace$Data.Text.Lazy.Internal:0
+    $text-2.0.2-inplace$Data.Text.Lazy.Read:0
+    $text-2.0.2-inplace$Data.Text.Read: 0
+    $text-2.0.2-inplace$Data.Text.Show: 0
+    $text-2.0.2-inplace$Data.Text.Unsafe:0
+
+    $transformers-0.6.1.0-inplace$Control.Applicative.Backwards:0
+    $transformers-0.6.1.0-inplace$Control.Applicative.Lift:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Signatures:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Accum:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Class:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Cont:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Except:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Identity:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Maybe:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.RWS:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.RWS.CPS:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.RWS.Lazy:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.RWS.Strict:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Reader:9427
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Select:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.State:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.State.Lazy:3090
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.State.Strict:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Writer:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Writer.CPS:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Writer.Lazy:0
+    $transformers-0.6.1.0-inplace$Control.Monad.Trans.Writer.Strict:0
+    $transformers-0.6.1.0-inplace$Data.Functor.Constant:0
+    $transformers-0.6.1.0-inplace$Data.Functor.Reverse:0
+
+
+
