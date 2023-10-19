@@ -110,6 +110,16 @@
   (major1) == 3 && (major2) <  2 || \
   (major1) == 3 && (major2) == 2 && (minor) <= 3)
 #endif /* MIN_VERSION_wai */
+/* package wai-app-static-3.1.7.4 */
+#ifndef VERSION_wai_app_static
+#define VERSION_wai_app_static "3.1.7.4"
+#endif /* VERSION_wai_app_static */
+#ifndef MIN_VERSION_wai_app_static
+#define MIN_VERSION_wai_app_static(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  1 || \
+  (major1) == 3 && (major2) == 1 && (minor) <= 7)
+#endif /* MIN_VERSION_wai_app_static */
 /* package wai-websockets-3.0.1.2 */
 #ifndef VERSION_wai_websockets
 #define VERSION_wai_websockets "3.0.1.2"
