@@ -1,0 +1,39 @@
+<html>
+ <body>
+   <script src="./index.bundle.js"></script>
+   <script>
+     const waitWebAssemblyModuleReady = startReactor("./build/wasm32-wasi/ghc-9.9.20231020/wasi-reactor-gc-counterexample-0.1.0.0/x/wasi-reactor-gc-counterexample/build/wasi-reactor-gc-counterexample/wasi-reactor-gc-counterexample.wasm");
+     async function generate_garbage() {
+       const wasi = await waitWebAssemblyModuleReady;
+       const answer = wasi.inst.exports.generate_garbage(10000);
+       console.log(answer);
+     }
+     async function perform_major_gc() {
+       const wasi = await waitWebAssemblyModuleReady;
+       const answer = wasi.inst.exports.perform_major_gc();
+       console.log(answer);
+     }
+     async function print_stderr() {
+       const wasi = await waitWebAssemblyModuleReady;
+       console.log(new TextDecoder('utf8').decode(wasi.fds[2].file.data));
+     }
+   </script>
+   <main>
+     <button onclick="generate_garbage()">generate_garbage()</button>
+     <button onclick="perform_major_gc()">perform_major_gc()</button>
+     <button onclick="print_stderr()">print_stderr()</button>
+     <h2>Steps to reproduce the bug:</h2>
+     <p>
+       <ol>
+         <li>Click <code>generate_garbage()</code> to run a heavy computation that allocates alot of heap memory</li>
+         <li>Click <code>perform_major_gc()</code> to trigger garbage collection</li>
+         <li>Click <code>generate_garbage()</code> again and then you'll probably see an error in browser console, press <code>print_stderr()</code> to see more relevant error messsage</li>
+         <li>In case the error did not reproduce try repeating the steps 1-3</li>
+       </ol>
+     </p>
+     <p>
+       When I perform described steps, one of the observed errors looks as following:
+       <img src="./selection_088.png"/>
+   </main>
+ </body>
+</html>
